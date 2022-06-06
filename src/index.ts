@@ -89,6 +89,10 @@ const createWindow = (): void => {
   const mainWindow = new BrowserWindow({
     height: 600,
     width: 800,
+    fullscreenable: true,
+    fullscreen: true,
+    skipTaskbar: true,
+    alwaysOnTop: false,
   })
 
   // and load the index.html of the app.
