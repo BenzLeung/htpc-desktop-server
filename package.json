@@ -13,8 +13,8 @@
   },
   "keywords": [],
   "author": {
-    "name": "weibin.liang",
-    "email": "weibin.liang@shopee.com"
+    "name": "BenzLeung",
+    "email": "benzleung@gmail.com"
   },
   "license": "MIT",
   "config": {
@@ -72,10 +72,12 @@
     "@typescript-eslint/eslint-plugin": "^5.0.0",
     "@typescript-eslint/parser": "^5.0.0",
     "@vercel/webpack-asset-relocator-loader": "1.7.0",
+    "copy-webpack-plugin": "^11.0.0",
     "css-loader": "^6.0.0",
     "electron": "19.0.3",
     "eslint": "^8.0.1",
     "eslint-plugin-import": "^2.25.0",
+    "file-loader": "^6.2.0",
     "fork-ts-checker-webpack-plugin": "^6.0.1",
     "node-loader": "^2.0.0",
     "style-loader": "^3.0.0",

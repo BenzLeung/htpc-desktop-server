@@ -26,4 +26,15 @@ module.exports = [
       },
     },
   },
+  {
+    test: /\.png$/,
+    use: {
+      loader: 'file-loader',
+      options: {
+        name: "[path][name].[ext]",
+        publicPath: "..", // move up from 'main_window'
+        context: "src", // set relative working folder to src
+      },
+    }
+  }
 ];

@@ -1,11 +1,6 @@
-/**
- * @file
- * @author weibin.liang@shopee.com
- */
-
 import * as os from 'os'
 
-const OSTYPES = {
+const OSTYPES: {[key: string]: string} = {
   Darwin: 'mac',
   Windows_NT: 'win',
   // todo: linux
